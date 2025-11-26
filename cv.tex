@@ -1,0 +1,87 @@
+\documentclass[11pt, a4paper]{article}
+
+% --- PACKAGES ---
+\usepackage[a4paper, margin=0.75in]{geometry}
+% Using standard fonts for maximum ATS compatibility
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[colorlinks,urlcolor=black,linkcolor=black]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+% --- FORMATTING SETTINGS ---
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\huge \textbf{Youssef Mohamed Hussien}} \\[4pt]
+    {\large \textbf{Backend Software Engineer}} \\[6pt]
+
+    \href{mailto:yomohu2000@gmail.com}{yomohu2000@gmail.com} \ | \ +20 112 722 6788 \\
+    \href{https://www.linkedin.com/in/youssef-mohamed-2aa068360}{linkedin.com/in/youssef-mohamed-2aa068360} \ | \ \href{https://github.com/YoussefMohamedHu}{github.com/YoussefMohamedHu}
+\end{center}
+
+% --- PROFESSIONAL SUMMARY ---
+\section{Professional Summary}
+Backend Software Engineer specializing in database-centric design and high-performance architecture. Proven expertise in building structured .NET solutions using Clean Architecture and optimizing SQL Server queries for scalability. Skilled in handling complex business logic, ensuring data consistency, and delivering maintainable backend systems. Committed to engineering best practices with a strong foundation in algorithmic problem solving.
+
+% --- TECHNICAL SKILLS ---
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0pt, label={}]
+    \item \textbf{Languages:} C\#, C++, Java, SQL
+    \item \textbf{Frameworks \& Architecture:} .NET Core, ASP.NET MVC, Clean Architecture, CQRS, Vertical Slices, Layered MVC
+    \item \textbf{Data \& Storage:} SQL Server, PostgreSQL, Entity Framework (EF) Core, Redis (Caching)
+    \item \textbf{Design Patterns:} MediatR, Repository Pattern, Unit of Work, Specification Pattern, Result Pattern, SOLID
+    \item \textbf{DevOps \& Tools:} Docker, Docker Compose, Git, GitHub, Swagger/OpenAPI, Background Services, JWT
+\end{itemize}
+
+% --- PROFESSIONAL EXPERIENCE ---
+\section{Professional Experience}
+
+\textbf{Freelance Backend Developer} \hfill July 2025 -- Oct 2025 \\
+\textbf{UNIS Store}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item Architected the complete backend infrastructure for online and in-store sales, implementing complex order workflows and reservation systems.
+    \item Engineered a robust inventory management system supporting product variants, image processing, and QR-code integration for desktop search.
+    \item Developed real-time analytics dashboards to track revenue, profit, and top-selling products, enabling data-driven comparisons between online and offline channels.
+    \item Guaranteed data integrity under high-concurrency traffic by implementing SQL Server row-level locking mechanisms.
+    \item Designed and deployed comprehensive admin features including RBAC (Role-Based Access Control), category management, and user moderation workflows.
+    \item Integrated Firebase Cloud Messaging (FCM) to deliver targeted and broadcast notifications with read-status tracking.
+    \item Optimized system performance by implementing caching strategies for high-traffic endpoints (homepage, dashboards, tokens), significantly reducing latency.
+    \item Developed background services for automated tasks including token cleanup, cache rehydration, and loyalty-point expiration.
+    \item \textbf{Tech Stack:} .NET Core, Clean Architecture, MediatR, EF Core, SQL Server, Caching, Background Services.
+\end{itemize}
+
+% --- PROJECTS ---
+\section{Projects}
+
+\textbf{E-Commerce Bookstore Platform} \hfill Personal Project \\
+\textit{Tech: C\#, ASP.NET MVC, Entity Framework, SQL Server}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item Developed a full-featured bookstore platform utilizing Layered MVC Architecture to ensure separation of concerns between Controllers, Services, and Repositories.
+    \item Implemented secure role-based authentication and authorization systems for Admins, Vendors, and Customers.
+    \item Optimized database performance through strategic indexing and query tuning within SQL Server.
+    \item Designed and exposed RESTful APIs to facilitate seamless frontend integration and data consumption.
+\end{itemize}
+
+% --- EDUCATION ---
+\section{Education}
+\textbf{Bachelor of Computer Science} \hfill Expected 2026 \\
+University of Cairo, Egypt \hfill GPA: 3.28/4.0
+
+% --- ACHIEVEMENTS ---
+\section{Achievements}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item \textbf{Algorithmic Problem Solving:} Solved 1,000+ problems on Codeforces and LeetCode, demonstrating strong data structure and algorithm proficiency.
+    \item \textbf{Database Optimization:} Completed 150+ SQL optimization challenges focused on query performance and schema design.
+\end{itemize}
+
+\end{document}
